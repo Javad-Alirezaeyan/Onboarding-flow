@@ -100,19 +100,22 @@ data source, you can change it to "database" before installing or running the pr
   <code>
         php artisan make:install
   </code>
+  
+  This command checks the php version. It must be larger equal than  7.2. Also, 
+  If the DATA_DRIVER has set to 'database', it checks your connection db and suggest you to insert fake data into database
   3. Finally, the application is acceccable on <your-ip>:8080 or 
   <a target="_blank" href="http://127.0.0.1:8080">127.0.0.1:8080</a>
   
   
-  <div style="color:red">If you want to run the project by
+  <div style="color:red">You can run project by this command as well
     
     
       php artisan serve
   
-   , you should run this command to installing node_modules
+   You must run the following command  installing node_modules, if you want to modify the vuejs component 
      
        
-      npm run install
+      npm install
        
    </div>
   
