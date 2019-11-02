@@ -83,36 +83,43 @@ data source, you can change it to "database" before installing or running the pr
  
  1. Clone the source code from Github repository. To do that open terminal and type the following command:
   
-  <code>
+  
+ 
     git clone https://github.com/Javad-Alirezaeyan/Onboarding-flow.git
-    </code>
+    
           
  2. Then, open the Onboarding-flow directory with command: 
  
- <code>cd Onboarding-flow </code>
+
+     cd Onboarding-flow 
+     
+     
   
   and run the following commands to install the project 
     
   <code>
         php artisan make:install
   </code>
-  3. Finally, the application is acceccable on <your-ip>:8080 or <a href="127.0.0.1:8080">127.0.0.1:8080</a>
+  3. Finally, the application is acceccable on <your-ip>:8080 or 
+  <a target="_blank" href="http://127.0.0.1:8080">127.0.0.1:8080</a>
   
   
   <div style="color:red">If you want to run the project by
-    <code>
-           php artisan serve
-     </code>
-     , you should run this command to installing node_module 
-       <code>
-                npm run install
-       </code>
+    
+    
+      php artisan serve
+  
+   , you should run this command to installing node_modules
+     
+       
+      npm run install
+       
    </div>
   
    ![alt text](https://github.com/Javad-Alirezaeyan/Onboarding-flow/blob/master/screenshots/install.png)
    
 
-####screnshots
+###screenshots
    ![alt text](https://github.com/Javad-Alirezaeyan/Onboarding-flow/blob/master/screenshots/upload1.png)
    ![alt text](https://github.com/Javad-Alirezaeyan/Onboarding-flow/blob/master/screenshots/upload2.png)
    ![alt text](https://github.com/Javad-Alirezaeyan/Onboarding-flow/blob/master/screenshots/RetentionWeekly.png)
