@@ -49,8 +49,7 @@ class install extends Command
         exec('npm -v', $foo, $exitCode);
 
         if ($exitCode !== 0) {
-            $this->error("Error: NPM is not installed, please install it");
-            exit;
+            $this->warn("Error: NPM is not installed, please install it, if you want to modify the vuejs component");
         }
 
         $this->line( "install 'Onboarding flow' application:");
@@ -74,9 +73,9 @@ class install extends Command
             }
         }
 
-        exec('npm run install');
+       // exec('npm  install');
 
-        $this->info("installing node_modules:");
+       // $this->info("installing node_modules:");
 
         $this->info("Laravel development is accessible on port 8080:");
         Artisan::call('serve --port=8080');
