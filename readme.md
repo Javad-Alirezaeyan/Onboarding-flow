@@ -129,5 +129,5 @@ data source, you can change it to "database" before installing or running the pr
    ![alt text](https://github.com/Javad-Alirezaeyan/Onboarding-flow/blob/master/screenshots/RetentionMonthly.png)
    ![alt text](https://github.com/Javad-Alirezaeyan/Onboarding-flow/blob/master/screenshots/RetentionDaily.png)
    ![alt text](https://github.com/Javad-Alirezaeyan/Onboarding-flow/blob/master/screenshots/Analysis.png)
-   ![alt text](https://github.com/Javad-Alirezaeyan/Onboarding-flow/blob/master/screenshots/PieChart.png)
+   ![alt text](https://github.com/Javad-Alirezaeyan/Onboarding-flow/blob/master/screenshots/Piechart.png)
    
